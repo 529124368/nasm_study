@@ -8,16 +8,7 @@ https://cs.lmu.edu/~ray/notes/nasmtutorial/
 https://asmtutor.com/#lesson1
 
 
-
-32 ビット Windows	32 ビット Linux	64 ビット Windows	64 ビット Linux
-{e|r}ax	戻り値を入れるレジスタ
-{e|r}cx	自由に使っていいレジスタ	引数を入れるレジスタ
-{e|r}dx	自由に使っていいレジスタ	引数を入れるレジスタ
-{e|r}bx	自由に使っていいレジスタ	保存しなければならないレジスタ
-{e|r}sp	スタックポインタ
-{e|r}bp	元の値を保存しなければならないレジスタ
-{e|r}si	元の値を保存しなければならないレジスタ	引数を入れるレジスタ
-{e|r}di	元の値を保存しなければならないレジスタ	引数を入れるレジスタ
-r8～9	-	引数を入れるレジスタ
-r10～11	-	自由に使っていいレジスタ
-r12～15	-	元の値を保存しなければならないレジスタ
+坑
+1. 在64位的情况下，不要用 INT80H 调用系统调动，需要用syscall   原因 ： ~ https://stackoverflow.com/questions/46087730/what-happens-if-you-use-the-32-bit-int-0x80-linux-abi-in-64-bit-code    ~  https://stackoverflow.com/questions/47023590/cant-print-a-linefeed-that-was-pushed-on-the-stack-in-nasm
+2. 
+3. 

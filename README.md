@@ -37,6 +37,8 @@ X86-64系统调用使用syscall指令.该指令将返回地址保存到rcx，会
    
 5. nasm汇编 GDB单步调试
 参考地址 https://blog.csdn.net/qq_31917799/article/details/87915432
+默认是gas汇编 
+(gdb)set disassembly-flavor intel 可以修改为intel汇编
 
 6. EIP 就是一个是记录运行到哪里了
    EBP 一个是函数的地址

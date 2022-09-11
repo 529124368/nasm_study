@@ -29,3 +29,5 @@ X86-64系统调用使用syscall指令.该指令将返回地址保存到rcx，会
 
 3. 有压栈操作，一定要有对等的弹栈操作，不然会发生段错误 segment fault
 
+4. 在gdb中，查看main函数反汇编代码(在gdb中输入disassemble main)
+   参考资料 https://blog.csdn.net/m0_55708805/article/details/117388229?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7ERate-8-117388229-blog-123806765.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7ERate-8-117388229-blog-123806765.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=8

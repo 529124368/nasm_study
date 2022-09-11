@@ -4,6 +4,9 @@
 1. 64位 nasm 学习网站
 https://cs.lmu.edu/~ray/notes/nasmtutorial/
 
+nasm汇编博客资料 （写的不错 ，通俗易懂）
+https://blog.csdn.net/qq_31917799/category_9285609.html
+
 2. 32位 nasm 学习网站
 https://asmtutor.com/#lesson1
 

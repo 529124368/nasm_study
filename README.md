@@ -32,8 +32,9 @@ X86-64系统调用使用syscall指令.该指令将返回地址保存到rcx，会
 
 3. 有压栈操作，一定要有对等的弹栈操作，不然会发生段错误 segment fault
 
-4. 在gdb中，查看main函数反汇编代码(在gdb中输入disassemble main)
-   
+4. 在gdb中，查看main函数反汇编代码
+
+(在gdb中输入disassemble main)
 反汇编一个函数
 disass func_name
 
@@ -47,3 +48,7 @@ disass func_name
 
 6. EIP 就是一个是记录运行到哪里了
    EBP 一个是函数的地址
+   
+7. 汇编写携程
+资料1 ： https://note.isliberty.me/article/61
+资料2 ： https://zhuanlan.zhihu.com/p/220025846

@@ -55,3 +55,15 @@ disass func_name
 7. 汇编写携程
 资料1 ： https://note.isliberty.me/article/61
 资料2 ： https://zhuanlan.zhihu.com/p/220025846
+
+
+
+fmmpeg 视频处理命令行学习
+①https://www.bilibili.com/read/cv17408017/
+
+视频按时间切割 
+ffmpeg -ss 00:16:29 -to 00:23:03 -i "test.mp4" -vcodec copy -acodec copy cut.mp4 -y
+无损提取音频
+ffmpeg -i "cut.mp4" -vn -acodec copy A.aac
+合并视频和声音
+ffmpeg -i "cut.mp4" -i "cut.aac" -c copy -map 0:v:0 -map 1:a:0 "new.mp4"

@@ -60,6 +60,7 @@ disass func_name
 
 fmmpeg 视频处理命令行学习
 ①https://www.bilibili.com/read/cv17408017/
+②https://www.bilibili.com/read/cv3159777/
 
 视频按时间切割 
 ffmpeg -ss 00:16:29 -to 00:23:03 -i "test.mp4" -vcodec copy -acodec copy cut.mp4 -y
